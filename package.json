@@ -4,18 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit"
+    "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
+    "start": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "4.17.1",
-    "mochawesome": "6.1.1",
-    "mongoose": "^5.10.15"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
+    "chai": "^4.3.7",
     "chai-http": "^4.3.0",
-    "mocha": "^8.2.1"
+    "express": "^4.18.2",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "mongoose": "^5.13.15",
+    "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": "v16.17.0"
   }
 }
