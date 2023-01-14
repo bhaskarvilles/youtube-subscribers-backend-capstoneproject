@@ -18,7 +18,7 @@ Features
 ## Getting Started
 
 1. Clone the repository
-```git clone https://github.com/[YOUR_USERNAME]/get-youtube-subscribers.git```
+```git clone https://github.com/bhaskarvilles/youtube-subscribers-backend-capstoneproject.git```
 
 2. Install the dependencies
 ```npm install```
