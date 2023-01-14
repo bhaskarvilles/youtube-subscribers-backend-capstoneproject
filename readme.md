@@ -43,16 +43,16 @@ Features
 
 Get an array of all subscribers:
 
-```curl --request GET \ --url http://localhost:3000/subscribers```
+```curl --request GET \ --url https://backend-rux8.onrender.com/subscribers```
 
 Get a specific subscriber by their _id:
 
-```curl --request GET \ --url http://localhost:3000/subscribers/5f5d5c5b5a5a5a5a5a5a5a```
+```curl --request GET \ --url https://backend-rux8.onrender.com/subscribers/5f5d5c5b5a5a5a5a5a5a5a```
 
 Add a new subscriber to the database:
 
 ```bash
-curl --request POST \ --url http://localhost:3000/subscribers \ (we can use mangooose application url here or MongodbShell or Compass)
+curl --request POST \ --url https://backend-rux8.onrender.com/subscribers \ (we can use mangooose application url here or MongodbShell or Compass)
   --header 'content-type: application/json' \
   --data '{
 	"name": "John Smith",
@@ -61,4 +61,4 @@ curl --request POST \ --url http://localhost:3000/subscribers \ (we can use mang
 ```
 Delete a subscriber from the database:
 
-```curl --request DELETE \ --url http://localhost:3000/subscribers/5f5d5c5b5a5a5a5a5a5a5a```
+```curl --request DELETE \ --url https://backend-rux8.onrender.com/subscribers/5f5d5c5b5a5a5a5a5a5a5a```
